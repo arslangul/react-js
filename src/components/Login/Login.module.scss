@@ -1,0 +1,39 @@
+@import '~bootstrap/scss/bootstrap';
+@import '~bootstrap/scss/bootstrap-reboot';
+
+.login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  
+    form {
+      padding: 2rem;
+      border: 1px solid #ccc;
+      border-radius: 0.5rem;
+  
+      label {
+        font-weight: bold;
+      }
+  
+      input {
+        padding: 0.5rem;
+        border-radius: 0.25rem;
+        border: 1px solid #ccc;
+      }
+  
+      button[type="submit"] {
+        padding: 0.5rem;
+        border-radius: 0.25rem;
+        border: none;
+        // @include button-outline-size(1.5);
+        // @include button-outline-style(solid);
+        // @include button-outline-color(blue);
+        // @include button-color(blue);
+        font-weight: bold;
+        cursor: pointer;
+      }
+    }
+  }
+  
